@@ -1,0 +1,55 @@
+.current {
+  color: green;
+}
+
+.furniture-item img {
+  max-width: 300px; /* Adjust this value as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* This centers the image */
+}
+
+body {
+  background-image: url('/assets/images/rustic-wood-background.jpg');
+  background-size: cover; /* This will ensure that it covers the entire area */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: to keep the background fixed during scroll */
+}
+
+.site-nav {
+  text-align: center;
+  padding: 30px 0; /* Adds top and bottom padding */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.menu-container {
+  width: 90%; /* Adjusts to 90% of the viewport width */
+  max-width: 1200px; /* Sets a maximum width */
+  margin: 0 auto; /* Centers the menu in the viewport */
+  background: rgba(133, 79, 9, 0.5); /* Same as .site-nav for consistency */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+  padding: 10px 0; /* Adds top and bottom padding */
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  background-color: rgba(0,0,0,0.5); /* Semi-transparent black */
+}
+
+.menu-item a:hover {
+  background-color: rgba(0,0,0,0.7); /* Darker on hover */
+}

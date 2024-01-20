@@ -1,0 +1,9 @@
+- name: "Farmhouse End Tables - Set of 2"
+  description: "Beautiful rustic farmhouse end tables. Set of 2. Flat white base, deep early-american stain and poly finished surface."
+  price: "250"
+  image: "/assets/images/farmhouse-end-tables1.jpg"
+
+- name: "Farmhouse Coffee Table"
+  description: "Beautiful rustic farmhouse coffee table. Flat white base, deep early-american stain and poly finished surface."
+  price: "200"
+  image: "/assets/images/farmhouse-coffee-table1.jpg"
