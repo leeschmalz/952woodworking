@@ -80,6 +80,16 @@ body {
   margin-bottom: 10px; /* Space between the image and the text below it */
 }
 
+.paypal-button-container {
+  text-align: center; /* Centers inline elements like input */
+}
+
+.price-tag {
+  font-family: 'Trebuchet MS', sans-serif; /* This sets the font */
+  font-size: 20px; /* This sets the size of the font */
+  color: #6F4E37; /* This sets the color of the font, in this case, red */
+}
+
 @media (max-width: 992px) {
   .furniture-listings {
     grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
