@@ -1,9 +1,19 @@
 - name: "Farmhouse End Tables - Set of 2"
-  description: "Rustic farmhouse end tables. Set of 2. Flat white base, early-american stain and poly-coated surface."
+  description: "Rustic farmhouse end tables. Set of 2. Flat white base, early-american stain and poly-coated surface. Dimensions: 21H x 22W x 24L"
   price: "250"
   payment_button_id: "5BMLNCG9RVJL4"
 
 - name: "Farmhouse Coffee Table"
-  description: "Rustic farmhouse coffee table. Flat white base, early-american stain and poly-coated surface."
+  description: "Rustic farmhouse coffee table. Flat white base, early-american stain and poly-coated surface. Dimensions: 17H x 22W x 48L"
   price: "200"
   payment_button_id: "YYK2XK9ZHQWQ8"
+
+- name: "Farmhouse Living Room Set"
+  description: "Rustic farmhouse living room set: coffee table and 2 end tables. Dimensions: End tables: 21H x 22W x 24L, Coffee Table: 17H x 22W x 48L"
+  price: "400"
+  payment_button_id: "TM2YC2NLP285J"
+
+- name: "Timber Coffee Table"
+  description: "Timber coffee table. Black metal legs. Heavy, early-american stained surface. Dimensions: 37.5L x 24W x 19H"
+  price: "250"
+  payment_button_id: "QJYET2TSRXKXJ"

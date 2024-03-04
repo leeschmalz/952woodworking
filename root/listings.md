@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Furniture Listings
+title: 952woodworking Listings
 carousels: # should be in same order as listings.yml file
   - images:
       - image: /assets/images/farmhouse-end-tables1.jpg
@@ -9,7 +9,18 @@ carousels: # should be in same order as listings.yml file
   - images:
       - image: /assets/images/farmhouse-coffee-table1.jpg
       - image: /assets/images/farmhouse-coffee-table2.jpg
+      - image: /assets/images/farmhouse-coffee-table3.jpg
+  - images:
+      - image: /assets/images/full-set1.jpg
+      - image: /assets/images/full-set2.jpg
+      - image: /assets/images/full-set3.jpg
+  - images:
+      - image: /assets/images/timber-table1.jpg
+      - image: /assets/images/timber-table2.jpg
+      - image: /assets/images/timber-table3.jpg
+      - image: /assets/images/timber-table4.jpg
 ---
+
 <div class="listings-container">
     <div class="furniture-listings">
     {% for item in site.data.listings %}

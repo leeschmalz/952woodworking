@@ -30,6 +30,7 @@ body {
   background: rgba(133, 79, 9, 0.5); /* Same as .site-nav for consistency */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
   padding: 10px 0; /* Adds top and bottom padding */
+  border-radius: 15px;
 }
 
 .menu-list {
@@ -39,15 +40,22 @@ body {
 
 .menu-item {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 30px;
 }
 
 .menu-item a {
   color: #fff;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 10px 30px; /* Increased padding for larger buttons */
+  font-size: 24px; /* Increased font size for larger text */
   display: block;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+}
+
+.menu-item a:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
 }
 
 .menu-item a:hover {
@@ -62,16 +70,18 @@ body {
 
 .furniture-listings {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Creates a 3-column layout */
-  gap: 20px; /* This is the space between the grid items */
-  /* Removed margin from here, the .listings-container will handle it */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-bottom: 120px; /* Adjust the value to the desired space */
 }
 
 .furniture-item {
   border: 1px solid #ddd; /* Optional: adds a border to each item */
   padding: 10px; /* Adds space inside each item */
   background: #fff; /* Sets the background color to white */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow for depth */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.65); /* Optional: adds a subtle shadow for depth */
+  font-family: Arial, sans-serif;
+  font-size: 15px;
 }
 
 .furniture-item img {
@@ -88,6 +98,19 @@ body {
   font-family: "Trebuchet MS", sans-serif; /* This sets the font */
   font-size: 20px; /* This sets the size of the font */
   color: #6F4E37; /* This sets the color of the font, in this case, red */
+}
+
+.white-box {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; /* Aligns top and bottom margin with the menu */
+  background: #ffffff; /* White background */
+  padding: 10px 0; /* Make padding the same as .menu-container */
+  line-height: 1.6;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box; /* This makes sure padding doesn't increase the box's size */
+  padding: 20px; /* This will now eat into the width of the box, not increase it */
+  /* Adjust other properties as needed */
 }
 
 @media (max-width: 992px) {
