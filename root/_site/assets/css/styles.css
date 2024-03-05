@@ -17,6 +17,13 @@ body {
   background-attachment: fixed; /* Optional: to keep the background fixed during scroll */
 }
 
+.nav-logo {
+  display: block;
+  max-width: 90%; /* Adjust the size to your preference */
+  height: auto;
+  margin: 0 auto;
+}
+
 .site-nav {
   text-align: center;
   padding: 30px 0; /* Adds top and bottom padding */
@@ -24,23 +31,27 @@ body {
 }
 
 .menu-container {
+  text-align: center;
   width: 90%; /* Adjusts to 90% of the viewport width */
   max-width: 1200px; /* Sets a maximum width */
   margin: 0 auto; /* Centers the menu in the viewport */
-  background: rgba(133, 79, 9, 0.5); /* Same as .site-nav for consistency */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+  background: rgb(228, 205, 175); /* Same as .site-nav for consistency */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.65); /* Adds a shadow for depth */
   padding: 10px 0; /* Adds top and bottom padding */
   border-radius: 15px;
 }
 
 .menu-list {
+  display: inline-block;
   list-style: none;
-  padding: 0;
+  padding: 0; /* Adjusted padding */
+  margin-left: 132px; /* Adjust this value to align with the logo */
+  text-align: left;
 }
 
 .menu-item {
   display: inline-block;
-  margin: 0 30px;
+  margin-right: 70px; /* Adjust this value to manage spacing */
 }
 
 .menu-item a {
@@ -49,17 +60,13 @@ body {
   padding: 10px 30px; /* Increased padding for larger buttons */
   font-size: 24px; /* Increased font size for larger text */
   display: block;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  background-color: rgba(82, 54, 27, 0.75); /* Semi-transparent black */
   font-family: Arial, sans-serif;
   border-radius: 5px;
 }
 
 .menu-item a:hover {
-  background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
-}
-
-.menu-item a:hover {
-  background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+  background-color: rgba(82, 54, 27, 0.9); /* Darker on hover */
 }
 
 .listings-container {
